@@ -8,7 +8,7 @@ import { HomeLogo } from "./pages/ImageExport";
 function App() {
     return (
         <Router>
-            <Link to="/">
+            <Link to="/website-reactjs/">
                 <img src={HomeLogo} alt="home" className="home"></img>
             </Link>
             <Switch>
