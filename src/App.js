@@ -12,13 +12,13 @@ function App() {
                 <img src={HomeLogo} alt="home" className="home"></img>
             </Link>
             <Switch>
-                <Route exact path="/">
+                <Route exact path="/website-reactjs/">
                     <Home />
                 </Route>
-                <Route exact path="/color">
+                <Route exact path="/website-reactjs/color">
                     <ColorGenerator />
                 </Route>
-                <Route exact path="/stripe">
+                <Route exact path="/website-reactjs/stripe">
                     <StripeSubmenu />
                 </Route>
                 <Route path="*">

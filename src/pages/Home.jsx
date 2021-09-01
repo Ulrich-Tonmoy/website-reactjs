@@ -13,7 +13,7 @@ export default function Home() {
                 <div class="underline"></div>
 
                 <div class="home-main-container">
-                    <Link to="/stripe">
+                    <Link to="/website-reactjs/stripe">
                         <div class="home-card">
                             <img
                                 className="home-project-logo"
@@ -24,7 +24,7 @@ export default function Home() {
                             <h4 className="home-project-title">Stripe SubMenu</h4>
                         </div>
                     </Link>
-                    <Link to="/color">
+                    <Link to="/website-reactjs/color">
                         <div class="home-card">
                             <img
                                 className="home-project-logo"
