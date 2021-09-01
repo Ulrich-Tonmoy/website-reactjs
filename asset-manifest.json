@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/website-reactjs/static/css/main.c28b745e.chunk.css",
-    "main.js": "/website-reactjs/static/js/main.0b5eb22b.chunk.js",
-    "main.js.map": "/website-reactjs/static/js/main.0b5eb22b.chunk.js.map",
+    "main.css": "/website-reactjs/static/css/main.cd25c4ad.chunk.css",
+    "main.js": "/website-reactjs/static/js/main.d947d45a.chunk.js",
+    "main.js.map": "/website-reactjs/static/js/main.d947d45a.chunk.js.map",
     "runtime-main.js": "/website-reactjs/static/js/runtime-main.37172bc7.js",
     "runtime-main.js.map": "/website-reactjs/static/js/runtime-main.37172bc7.js.map",
     "static/js/2.76da94ee.chunk.js": "/website-reactjs/static/js/2.76da94ee.chunk.js",
@@ -10,20 +10,20 @@
     "static/js/3.fcb6421d.chunk.js": "/website-reactjs/static/js/3.fcb6421d.chunk.js",
     "static/js/3.fcb6421d.chunk.js.map": "/website-reactjs/static/js/3.fcb6421d.chunk.js.map",
     "index.html": "/website-reactjs/index.html",
-    "static/css/main.c28b745e.chunk.css.map": "/website-reactjs/static/css/main.c28b745e.chunk.css.map",
+    "static/css/main.cd25c4ad.chunk.css.map": "/website-reactjs/static/css/main.cd25c4ad.chunk.css.map",
     "static/js/2.76da94ee.chunk.js.LICENSE.txt": "/website-reactjs/static/js/2.76da94ee.chunk.js.LICENSE.txt",
     "static/media/home.css": "/website-reactjs/static/media/bg.6974a1b7.jpg",
     "static/media/color.a101893b.png": "/website-reactjs/static/media/color.a101893b.png",
-    "static/media/stripeSubmenu.css": "/website-reactjs/static/media/hero.acf1e00e.svg",
-    "static/media/logo.6ad422bb.svg": "/website-reactjs/static/media/logo.6ad422bb.svg",
+    "static/media/stripeSubmenu.css": "/website-reactjs/static/media/hero.1382a501.svg",
+    "static/media/logo.4658afbd.svg": "/website-reactjs/static/media/logo.4658afbd.svg",
     "static/media/logo.6ce24c58.svg": "/website-reactjs/static/media/logo.6ce24c58.svg",
-    "static/media/phone.94a7a4fe.svg": "/website-reactjs/static/media/phone.94a7a4fe.svg",
+    "static/media/phone.ae907e63.svg": "/website-reactjs/static/media/phone.ae907e63.svg",
     "static/media/stripe.3d11080e.png": "/website-reactjs/static/media/stripe.3d11080e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.37172bc7.js",
     "static/js/2.76da94ee.chunk.js",
-    "static/css/main.c28b745e.chunk.css",
-    "static/js/main.0b5eb22b.chunk.js"
+    "static/css/main.cd25c4ad.chunk.css",
+    "static/js/main.d947d45a.chunk.js"
   ]
 }
