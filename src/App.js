@@ -2,7 +2,9 @@ import "./App.css";
 import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
 import ColorGenerator from "./apps/color-generator/ColorGenerator";
 import StripeSubmenu from "./apps/stripe-submenus/StripeSubmenu";
+import Cocktails from "./apps/cocktails/Cocktails";
 import Home from "./pages/Home";
+import Error from "./pages/Error";
 import { HomeLogo } from "./pages/ImageExport";
 
 function App() {
@@ -21,8 +23,11 @@ function App() {
                 <Route exact path="/website-reactjs/stripe">
                     <StripeSubmenu />
                 </Route>
-                <Route path="*">
-                    <h3 style={{ position: "absolute", top: "44%", left: "40%" }}>404 not found</h3>
+                <Route exact path="/website-reactjs/cocktails">
+                    <Cocktails />
+                </Route>
+                <Route exact path="*">
+                    <Error />
                 </Route>
             </Switch>
         </Router>
