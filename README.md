@@ -1,6 +1,4 @@
-# live Demo
-
-[Live](https://ulrich-tonmoy.github.io/website-reactjs/)
+# [Live](https://ulrich-tonmoy.github.io/website-reactjs/)
 
 ## Getting Started with Create React App
 
