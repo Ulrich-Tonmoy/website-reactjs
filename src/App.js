@@ -6,6 +6,7 @@ import Cocktails from "./apps/cocktails/Cocktails";
 import Home from "./pages/Home";
 import Error from "./pages/Error";
 import { HomeLogo } from "./pages/ImageExport";
+import Discord from "./apps/discord/Discord";
 
 function App() {
     return (
@@ -25,6 +26,9 @@ function App() {
                 </Route>
                 <Route exact path="/website-reactjs/cocktails">
                     <Cocktails />
+                </Route>
+                <Route exact path="/website-reactjs/discord">
+                    <Discord />
                 </Route>
                 <Route exact path="*">
                     <Error />

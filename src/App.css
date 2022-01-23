@@ -1,6 +1,6 @@
 .home {
-    position: absolute;
-    top: 1rem;
+    position: fixed;
+    top: 4rem;
     right: 1rem;
     height: 2rem;
     width: 2rem;

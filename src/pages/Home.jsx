@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./home.css";
-import { ReactLogo, ColorImg, StripeImg, CocktailImg } from "./ImageExport";
+import { ReactLogo, ColorImg, StripeImg, CocktailImg, DiscordImg } from "./ImageExport";
 
 export default function Home() {
     return (
@@ -44,6 +44,17 @@ export default function Home() {
                                 style={{ width: "100%" }}
                             />
                             <h4 className="home-project-title">Color Generator</h4>
+                        </div>
+                    </Link>
+                    <Link to="/website-reactjs/discord">
+                        <div className="home-card">
+                            <img
+                                className="home-project-logo"
+                                src={DiscordImg}
+                                alt="Color"
+                                style={{ width: "100%" }}
+                            />
+                            <h4 className="home-project-title">Discord</h4>
                         </div>
                     </Link>
                 </div>
