@@ -14,7 +14,7 @@ const SearchForm = () => {
     };
 
     return (
-        <section className="section search">
+        <section className="section cocktail-search">
             <form
                 className="search-form"
                 onSubmit={(e) => {
