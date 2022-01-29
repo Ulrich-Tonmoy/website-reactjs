@@ -11,7 +11,7 @@ import Footer from "./container/footer/Footer";
 
 export default function GPT3() {
     return (
-        <div className="body App">
+        <div className="body">
             <div className="gradient__bg">
                 <NavBar />
                 <Header />
