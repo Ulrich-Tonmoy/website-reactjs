@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Error from "./pages/Error";
 import { HomeLogo } from "./pages/ImageExport";
 import Discord from "./apps/discord/Discord";
+import GPT3 from "./apps/gtp-3/GPT3";
 
 function App() {
     return (
@@ -29,6 +30,9 @@ function App() {
                 </Route>
                 <Route exact path="/website-reactjs/discord">
                     <Discord />
+                </Route>
+                <Route exact path="/website-reactjs/gpt-3">
+                    <GPT3 />
                 </Route>
                 <Route exact path="*">
                     <Error />

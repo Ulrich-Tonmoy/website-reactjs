@@ -24,6 +24,17 @@ export default function Home() {
                             <h4 className="home-project-title">Cocktails</h4>
                         </div>
                     </Link>
+                    <Link to="/website-reactjs/gpt-3">
+                        <div className="home-card">
+                            <img
+                                className="home-project-logo"
+                                src={CocktailImg}
+                                alt="stripe"
+                                style={{ width: "100%" }}
+                            />
+                            <h4 className="home-project-title">GPT-3</h4>
+                        </div>
+                    </Link>
                     <Link to="/website-reactjs/stripe">
                         <div className="home-card">
                             <img
