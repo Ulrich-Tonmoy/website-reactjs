@@ -54,7 +54,7 @@ a {
     align-items: center;
 }
 
-.app__bg {
+.restaurant__bg {
     background: url("./assets/bg.png");
     background-position: center;
     background-size: cover;
@@ -62,7 +62,7 @@ a {
     background-attachment: fixed;
 }
 
-.app__wrapper {
+.restaurant__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +70,7 @@ a {
     min-height: 100vh;
 }
 
-.app__wrapper_info {
+.restaurant__wrapper_info {
     flex: 1;
     width: 100%;
     display: flex;
@@ -79,7 +79,7 @@ a {
     flex-direction: column;
 }
 
-.app__wrapper_img {
+.restaurant__wrapper_img {
     flex: 1;
     width: 100%;
     display: flex;
@@ -89,12 +89,12 @@ a {
     margin-left: 2rem;
 }
 
-.app__wrapper_img-reverse {
+.restaurant__wrapper_img-reverse {
     justify-content: flex-start;
     margin-right: 2rem;
 }
 
-.app__wrapper_img img {
+.restaurant__wrapper_img img {
     width: 80%;
 }
 
@@ -170,19 +170,19 @@ a {
 }
 
 @media screen and (max-width: 1150px) {
-    .app__wrapper {
+    .restaurant__wrapper {
         flex-direction: column;
     }
 
-    .app__wrapper_img {
+    .restaurant__wrapper_img {
         margin: 5rem 0 0 0;
     }
 
-    .app__wrapper_img-reverse {
+    .restaurant__wrapper_img-reverse {
         margin: 0 0 5rem 0;
     }
 
-    .app__wrapper_img img {
+    .restaurant__wrapper_img img {
         width: 100%;
     }
 }
