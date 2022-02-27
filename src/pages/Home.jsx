@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 import "./home.css";
-import { ReactLogo, ColorImg, StripeImg, CocktailImg, DiscordImg, GPT3Img } from "./ImageExport";
+import {
+    ReactLogo,
+    ColorImg,
+    StripeImg,
+    CocktailImg,
+    DiscordImg,
+    GPT3Img,
+    RestaurantImg,
+} from "./ImageExport";
 
 export default function Home() {
     return (
@@ -28,7 +36,7 @@ export default function Home() {
                         <div className="home-card">
                             <img
                                 className="home-project-logo"
-                                src={GPT3Img}
+                                src={RestaurantImg}
                                 alt="stripe"
                                 style={{ width: "100%" }}
                             />
