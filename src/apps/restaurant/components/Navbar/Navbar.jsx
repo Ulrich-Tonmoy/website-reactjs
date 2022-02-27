@@ -4,7 +4,7 @@ import images from "../../constants/images";
 import "./Navbar.css";
 import { useState } from "react";
 
-const Navbar = () => {
+export default function Navbar() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
@@ -81,5 +81,4 @@ const Navbar = () => {
             </div>
         </nav>
     );
-};
-export default Navbar;
+}
