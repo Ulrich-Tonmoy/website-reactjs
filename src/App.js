@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 import ColorGenerator from "./apps/color-generator/ColorGenerator";
 import StripeSubmenu from "./apps/stripe-submenus/StripeSubmenu";
 import Cocktails from "./apps/cocktails/Cocktails";
@@ -16,32 +16,16 @@ function App() {
             <Link to="/website-reactjs/">
                 <img src={HomeLogo} alt="home" className="home"></img>
             </Link>
-            <Switch>
-                <Route exact path="/website-reactjs/">
-                    <Home />
-                </Route>
-                <Route exact path="/website-reactjs/color">
-                    <ColorGenerator />
-                </Route>
-                <Route exact path="/website-reactjs/stripe">
-                    <StripeSubmenu />
-                </Route>
-                <Route exact path="/website-reactjs/cocktails">
-                    <Cocktails />
-                </Route>
-                <Route exact path="/website-reactjs/discord">
-                    <Discord />
-                </Route>
-                <Route exact path="/website-reactjs/gpt-3">
-                    <GPT3 />
-                </Route>
-                <Route exact path="/website-reactjs/restaurant">
-                    <Restaurant />
-                </Route>
-                <Route exact path="*">
-                    <Error />
-                </Route>
-            </Switch>
+            <Routes>
+                <Route exact path="/website-reactjs/" element={<Home />} />
+                <Route exact path="/website-reactjs/color" element={<ColorGenerator />} />
+                <Route exact path="/website-reactjs/stripe" element={<StripeSubmenu />} />
+                <Route exact path="/website-reactjs/cocktails/*" element={<Cocktails />} />
+                <Route exact path="/website-reactjs/discord" element={<Discord />} />
+                <Route exact path="/website-reactjs/gpt-3" element={<GPT3 />} />
+                <Route exact path="/website-reactjs/restaurant" element={<Restaurant />} />
+                <Route exact path="*" element={<Error />} />
+            </Routes>
         </Router>
     );
 }

@@ -1,28 +1,19 @@
 import "./cocktails.css";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { AppProvider } from "./context";
-import Home from "./pages/Home";
+import CocktailsHome from "./pages/CocktailsHome";
 import About from "./pages/About";
 import SingleCocktail from "./pages/SingleCocktail";
-
 import Navbar from "./components/Navbar";
 function Cocktails() {
     return (
         <AppProvider>
-            <Router>
-                <Navbar />
-                <Switch>
-                    <Route exact path="/website-reactjs/cocktails">
-                        <Home />
-                    </Route>
-                    <Route exact path="/website-reactjs/cocktails/about">
-                        <About />
-                    </Route>
-                    <Route exact path="/website-reactjs/cocktails/cocktail/:id">
-                        <SingleCocktail />
-                    </Route>
-                </Switch>
-            </Router>
+            <Navbar />
+            <Routes>
+                <Route exact path="/" element={<CocktailsHome />} />
+                <Route exact path="about" element={<About />} />
+                <Route exact path="cocktail/:id" element={<SingleCocktail />} />
+            </Routes>
         </AppProvider>
     );
 }

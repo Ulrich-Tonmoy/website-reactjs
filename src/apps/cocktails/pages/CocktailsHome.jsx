@@ -2,7 +2,7 @@ import React from "react";
 import CocktailList from "../components/CocktailList";
 import SearchForm from "../components/SearchForm";
 
-const Home = () => {
+const CocktailsHome = () => {
     return (
         <main>
             <SearchForm />
@@ -11,4 +11,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default CocktailsHome;
