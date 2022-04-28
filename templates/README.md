@@ -1,6 +1,6 @@
 # [Live](https://ulrich-tonmoy.github.io/website-reactjs/)
 
-<img alt="website" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/website.png" />
+<img alt="website" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/templates/website.png" />
 
 ## Getting Started with Create React App
 
