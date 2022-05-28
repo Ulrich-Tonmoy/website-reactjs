@@ -1,5 +1,9 @@
 # [Live](https://search-doogle.netlify.app/)
 
+## Doogle
+A search engine build with google search RestAPI, Reactjs and Tailwind css for Design. Here user can search for Images, Videos and News or can search for all kinds of data in General.
+
+
 ## ScreenShots
 
 <img alt="demo1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/doogle/demo/doogle.png" />
