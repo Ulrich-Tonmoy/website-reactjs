@@ -9,13 +9,14 @@ const { Text } = Typography;
 const { Panel } = Collapse;
 
 export default function Exchanges() {
-    const { data, isFetching } = useGetExchangesQuery();
-    const exchangesList = data?.data?.exchanges;
+    // const { data, isFetching } = useGetExchangesQuery();
+    // const exchangesList = data?.data?.exchanges;
 
-    if (isFetching) return <Loading />;
+    // if (isFetching) return <Loading />;
     return (
         <>
-            <Row>
+            <h1>Disabled</h1>
+            {/* <Row>
                 <Col span={6}>Exchanges</Col>
                 <Col span={6}>24h Trade Volume</Col>
                 <Col span={6}>Markets</Col>
@@ -53,7 +54,7 @@ export default function Exchanges() {
                         </Collapse>
                     </Col>
                 ))}
-            </Row>
+            </Row> */}
         </>
     );
 }

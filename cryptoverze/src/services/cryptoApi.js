@@ -4,8 +4,11 @@ const cryptoApiHeaders = {
     "x-rapidapi-host": process.env.REACT_APP_CRYPTO_RAPIDAPI_HOST,
     "x-rapidapi-key": process.env.REACT_APP_RAPIDAPI_KEY,
 };
+const cryptoApiParams = {
+    referenceCurrencyUuid: "yhjMzLPhuIDl",
+};
 
-const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
+const createRequest = (url) => ({ url, params: cryptoApiParams, headers: cryptoApiHeaders });
 
 export const cryptoApi = createApi({
     reducerPath: "cryptoApi",
@@ -18,8 +21,9 @@ export const cryptoApi = createApi({
             query: (coinId) => createRequest(`/coin/${coinId}`),
         }),
         getCryptoHistory: builder.query({
-            query: ({ coinId, timePeriod }) =>
-                createRequest(`/coin/${coinId}/history/${timePeriod}`),
+            query: ({ coinId, timePeriod }) => {
+                createRequest(`/coin/${coinId}/history/${timePeriod}`);
+            },
         }),
         getExchanges: builder.query({
             query: () => createRequest("/exchanges"),

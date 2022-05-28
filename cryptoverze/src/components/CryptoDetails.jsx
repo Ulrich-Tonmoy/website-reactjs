@@ -29,6 +29,9 @@ export default function CryptoDetails() {
     const { data: coinHistory } = useGetCryptoHistoryQuery({ coinId, timePeriod });
     const cryptoDetails = data?.data?.coin;
 
+    console.log(cryptoDetails);
+    console.log(coinHistory);
+
     if (isFetching) return <Loading />;
 
     const time = ["3m", "3h", "24h", "7d", "30d", "1y", "3y", "5y"];
@@ -40,11 +43,11 @@ export default function CryptoDetails() {
             icon: <DollarCircleOutlined />,
         },
         { title: "Rank", value: cryptoDetails.rank, icon: <NumberOutlined /> },
-        {
-            title: "24h Volume",
-            value: `$ ${cryptoDetails.volume && millify(cryptoDetails.volume)}`,
-            icon: <ThunderboltOutlined />,
-        },
+        // {
+        //     title: "24h Volume",
+        //     value: `$ ${cryptoDetails.volume && millify(cryptoDetails.volume)}`,
+        //     icon: <ThunderboltOutlined />,
+        // },
         {
             title: "Market Cap",
             value: `$ ${cryptoDetails.marketCap && millify(cryptoDetails.marketCap)}`,
@@ -72,16 +75,16 @@ export default function CryptoDetails() {
             value: cryptoDetails.approvedSupply ? <CheckOutlined /> : <StopOutlined />,
             icon: <ExclamationCircleOutlined />,
         },
-        {
-            title: "Total Supply",
-            value: `$ ${millify(cryptoDetails.totalSupply)}`,
-            icon: <ExclamationCircleOutlined />,
-        },
-        {
-            title: "Circulating Supply",
-            value: `$ ${millify(cryptoDetails.circulatingSupply)}`,
-            icon: <ExclamationCircleOutlined />,
-        },
+        // {
+        //     title: "Total Supply",
+        //     value: `$ ${millify(cryptoDetails.totalSupply)}`,
+        //     icon: <ExclamationCircleOutlined />,
+        // },
+        // {
+        //     title: "Circulating Supply",
+        //     value: `$ ${millify(cryptoDetails.circulatingSupply)}`,
+        //     icon: <ExclamationCircleOutlined />,
+        // },
     ];
 
     return (
