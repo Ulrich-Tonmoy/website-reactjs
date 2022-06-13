@@ -1,8 +1,8 @@
 # Screenshot of the Project
 
-<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/portfolio-v1/demo/demo (1).png" />
-<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/portfolio-v1/demo/demo (2).png" />
-<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/portfolio-v1/demo/demo (3).png" />
+<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/templates-2/portfolio-v1/demo/demo (1).png" />
+<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/templates-2/portfolio-v1/demo/demo (2).png" />
+<img alt="login" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/templates-2/portfolio-v1/demo/demo (3).png" />
 
 # Getting Started with Create React App
 
