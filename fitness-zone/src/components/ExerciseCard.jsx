@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ExerciseCard = (exercise) => {
     return (
-        <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
+        <Link className="exercise-card" to={`/exercise/${exercise.exercise.id}`}>
             <img src={exercise.exercise.gifUrl} alt={exercise.exercise.name} loading="lazy" />
             <Stack direction="row">
                 <Button
