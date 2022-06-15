@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# [Live](https://fitness-zone-gym.netlify.app/)
+
+## Fitness Zone
+
+A Fitness info website build with exercise RestAPI, Reactjs and Material UI for Design. Here user can search for exercise by category or by using the search field. In the details page user will get the full details of the exercise, related videos with link to youtube, similar target muscles and similar equipment exercise recommendation.
+
+## ScreenShots
+
+<p align="center">
+  <img alt="home1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home1.png" />
+  <img alt="home2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home2.png" />
+  <img alt="home3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home3.png" />
+</p>
+<p align="center">
+  <img alt="detail1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail1.png" />
+  <img alt="detail2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail2.png" />
+  <img alt="detail3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail3.png" />
+  <img alt="detail4" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail4.png" />
+</p>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
