@@ -7,15 +7,15 @@ A Fitness info website build with exercise RestAPI, Reactjs and Material UI for 
 ## ScreenShots
 
 <p align="center">
-  <img alt="home1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home1.png" />
-  <img alt="home2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home2.png" />
-  <img alt="home3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home3.png" />
+  <img alt="home1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home1.png" width="360px" />
+  <img alt="home2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home2.png" width="360px" />
+  <img alt="home3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/home3.png" width="360px" />
 </p>
 <p align="center">
-  <img alt="detail1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail1.png" />
-  <img alt="detail2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail2.png" />
-  <img alt="detail3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail3.png" />
-  <img alt="detail4" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail4.png" />
+  <img alt="detail1" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail1.png" width="360px" />
+  <img alt="detail2" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail2.png" width="360px" />
+  <img alt="detail3" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail3.png" width="360px" />
+  <img alt="detail4" src="https://github.com/Ulrich-Tonmoy/website-reactjs/blob/main/fitness-zone/demo/detail4.png" width="360px" />
 </p>
 
 ## Getting Started with Create React App
