@@ -56,9 +56,9 @@ body {
     position: absolute;
     right: 40px;
     top: 0px;
-    width: 700px;
-    height: 900px;
-    margin-top: -330px;
+    width: 600px;
+    height: 800px;
+    margin-top: -310px;
 }
 
 .exercise-card {
@@ -120,7 +120,9 @@ body {
     }
 
     .hero-banner-img {
-        display: none;
+        width: 400px;
+        height: 500px;
+        margin-top: -130px;
     }
 
     .exercise-card {
@@ -130,6 +132,12 @@ body {
     .exercise-video {
         width: 320px;
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 953px) {
+    .hero-banner-img {
+        display: none;
     }
 }
 
